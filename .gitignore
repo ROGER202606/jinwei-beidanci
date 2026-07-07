@@ -1,0 +1,11 @@
+# WorkBuddy 内部/会话数据，不入库
+.workbuddy/
+__pycache__/
+*.pyc
+
+# 本地开发校验脚本（依赖本机 jsdom 路径），非程序运行所需
+validate_lib.js
+
+# 操作系统/编辑器临时文件
+.DS_Store
+Thumbs.db
